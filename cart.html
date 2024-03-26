@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <style>
+        .unvisible
+        {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="img/logo-normal.svg" alt="Logo - Apple-market.">
+        <div class="nav-buttons">
+            <a href="" class="nav-button active">Home</a>
+            <a href="" class="nav-button">Catalog</a>
+        </div>
+        <div style="width: 74px;"></div>
+        <a class="bucket unvisible" onclick="goCart();return false;" style="cursor:pointer;">
+            <img style="width: 29px; height: 29px;" src="img/Bag.svg" alt="Bucket Icon">
+            <p class="nav-bucket-size unvisible" id="bucket-size">1</p>
+        </a>
+    </nav>
+
+    <div class="mainOrder">
+        <h1>Ordering</h1>
+        <div class="orderDetail">
+            <div class="cartItems">
+                <div class="orderDetail-items">
+                    <div class="orderDetail-items-main">
+                        <img class="orderDetail-img" src="img/iphone.png" alt="iphone">
+                        <div class="orderDetail-desc">
+                            <p class="orderDetail-items-name">iPhone 15 Pro Max 1 TB Titanium White</p>
+                            <p class="oderDetail-items-price">Price - 2 000$</p>
+                            
+                        </div>
+                        <div class="counter">
+                            <img src="img/minus.svg" alt="">
+                            <p>1</p>
+                            <img src="img/plus.svg" alt="">
+                        </div>
+                        <img src="img/Close.svg" alt="">
+                    </div>
+                    <hr class="hr-gift">
+                    <div class="orderDetail-items-main gift">
+                        <img class="orderDetail-img" src="img/airpods.png" alt="iphone">
+                        <div class="orderDetail-desc">
+                            <p class="orderDetail-items-name">iPhone 15 Pro Max 1 TB Titanium White</p>
+                            <p class="oderDetail-items-price">Price - Free</p>
+                        </div>
+                        <div class="counter">
+                            <img src="img/minus.svg" alt="">
+                            <p>1</p>
+                            <img src="img/plus.svg" alt="">
+                        </div>
+                        <img src="img/Close.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="orderDetail-items">
+                    <div class="orderDetail-items-main">
+                        <img class="orderDetail-img" src="img/iphone.png" alt="iphone">
+                        <div class="orderDetail-desc">
+                            <p class="orderDetail-items-name">iPhone 15 Pro Max 1 TB Titanium White</p>
+                            <p class="oderDetail-items-price">Price - 2 000$</p>
+                        </div>
+                        <div class="counter">
+                            <img src="img/minus.svg" alt="">
+                            <p>1</p>
+                            <img src="img/plus.svg" alt="">
+                        </div>
+                        <img src="img/Close.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="total">
+                <p class="total-titles">Items</p>
+                <p class="total-values">1990$</p>
+                <p class="total-titles">Delivery</p>
+                <p class="total-values">FREE</p>
+                <p class="total-titles">Discount</p>
+                <p class="total-values">0%</p>
+                <p class="total-titles">Gift</p>
+                <p class="total-values">AirPods</p>
+                <p class="total-titles">Total</p>
+                <p class="total-values">2000$</p>
+                <a href="#" class="button-buy">Checkout</a>
+            </div>
+
+        </div>
+        <div class="mailAdress">
+            <hr>
+
+            <form>
+                <input type="text" id="promocode" name="promocode" placeholder="PROMOCODE" class="promocode-input valid">
+                <br>
+                <h1>Your Location</h1>
+                <input type="text" id="city" name="city" placeholder="City, Address..." required>
+                <br>
+                <input type="text" id="name-surname" name="name-surname" placeholder="L.Name F.Name" required>
+                <br>
+                <div class="phone-email">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone number" required>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="footer-right">
+            <img src="img/logo-inv.svg" alt="Logo - Apple-market.">
+            <h1 class="footer-header">Contact us in any convenient way</h1>
+            <p class="footer-par">applemarket@gmail.com</p>
+        </div>
+        <div class="footer-left">
+            <div>
+                <p class="footer-button">Privacy Police</p>
+                <p class="footer-button">Privacy Police</p>
+            </div>
+            <div>
+                <p class="footer-button">Privacy Police</p>
+                <p class="footer-button">Privacy Police</p>
+                <p class="footer-button">Privacy Police</p>
+                <p class="footer-button">Privacy Police</p>
+                <p class="footer-button">Privacy Police</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
