@@ -40,16 +40,19 @@ nav {
 .bucket {
     display: flex;
     position: fixed;
-    top: 60px;
+    top: 50px;
     right: 100px;
     background-color: transparent;;
     flex-direction: row;
+
     align-items: center;
     border-radius: 50px;
     padding: 5px;
     z-index: 100;
 }
+
 .nav-bucket-size {
+    position: relative;
     color: white;
     text-align: center;
     padding: 7px 12px;
