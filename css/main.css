@@ -37,31 +37,17 @@ nav {
 .active {
     color: #242424ab;
 }
-
 .bucket {
     display: flex;
     position: fixed;
-    top: 35px;
+    top: 60px;
     right: 100px;
-    background-color: #edf1ff;;
+    background-color: transparent;;
     flex-direction: row;
     align-items: center;
     border-radius: 50px;
     padding: 5px;
     z-index: 100;
-}
-.bucket {
-    display: none;
-    position: fixed;
-    top: 50%;
-    right: -100px;
-    background: lightblue;
-    padding: 10px;
-    transition: right 0.5s;
-}
-
-.cart.show {
-    right: 20px;
 }
 .nav-bucket-size {
     color: white;
